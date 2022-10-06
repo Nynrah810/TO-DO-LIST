@@ -1,0 +1,1 @@
+npm i express mysql axios nodemon -save-dev concurrently --save-dev

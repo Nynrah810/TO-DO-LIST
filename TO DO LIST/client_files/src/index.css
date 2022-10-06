@@ -1,0 +1,92 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(36, 36, 36);
+}
+
+h1 {
+    font-size: 60px;
+    margin: auto 0;
+    color: rgb(122, 246, 255);
+}
+
+.header {
+    width: 100%;
+    background: rgb(73, 73, 73);
+    padding: 5px 0;
+    box-shadow: 0 50px 25px rgba(0, 0, 0, 0.301);
+    position: fixed;
+    left: 0;
+    top: 0;
+}
+   
+.header_inner {
+    width: 100%;
+    max-width: 70%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 15px;
+}
+
+.addtask_wrapper {
+    width: 50%;
+    height: 10%;
+    margin: auto 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.list {
+    margin-top: 100px;
+    padding: 0 90px;
+    font-size: 25px;
+    color: rgb(255, 255, 255);
+}
+
+.ToDoItem {
+    display: flex;
+    padding: 20px;
+    margin-bottom: 15px;
+    background-color: rgb(73, 73, 73);
+    border-radius: 15px 15px;
+    font-weight: 700;
+    justify-content: space-between;
+}
+
+p {
+    margin: 0;
+    color: rgb(209, 209, 209);
+    font-size: 20px;
+    font-weight: normal;
+}
+
+button {
+    height: 40px;
+    margin: auto 0;
+    border-radius: 15px 15px;
+    color: rgb(73, 73, 73);
+    background-color: rgb(122, 246, 255);
+    font-weight: 700;
+}
+
+.check_n_task {
+    display: flex;
+}
+
+.task0 {
+    margin-left: 10px;
+}
+
+.task1 {
+    margin-left: 10px;
+    color: rgb(154, 255, 176);
+}
+
+@media (max-width: 1200px) {
+    .addtask_wrapper {
+        display: block;
+        width: 30%;
+    }
+}
